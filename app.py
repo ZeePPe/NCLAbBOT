@@ -17,8 +17,7 @@ from botbuilder.core import (
 from botbuilder.core.integration import aiohttp_error_middleware
 from botbuilder.schema import Activity, ActivityTypes
 
-from NCLabBot1.lab_bot import NCLabBot
-from NCLabBot1.old_bots.bot_qna import MyBot_QnA
+from lab_bot import NCLabBot
 from config import DefaultConfig
 
 CONFIG = DefaultConfig()
