@@ -1,4 +1,4 @@
-from NCLabBot1.config import DefaultConfig
+from config import DefaultConfig
 from datetime import date
 import textwrap
 import pyodbc
