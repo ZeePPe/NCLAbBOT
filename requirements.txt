@@ -3,3 +3,4 @@ botbuilder-dialogs
 botbuilder-azure
 aiohttp
 pyodbc
+flask
