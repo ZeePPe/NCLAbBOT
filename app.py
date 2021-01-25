@@ -4,6 +4,7 @@
 import sys
 import traceback
 from datetime import datetime
+from flask import Flask
 
 from aiohttp import web
 from aiohttp.web import Request, Response, json_response
@@ -21,6 +22,8 @@ from lab_bot import NCLabBot
 from config import DefaultConfig
 
 CONFIG = DefaultConfig()
+
+app = Flask(__name__)
 
 # Create adapter.
 # See https://aka.ms/about-bot-adapter to learn more about how bots work.
