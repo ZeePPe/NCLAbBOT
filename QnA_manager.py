@@ -1,4 +1,4 @@
-from NCLabBot1.config import DefaultConfig
+from config import DefaultConfig
 from botbuilder.ai.qna import QnAMaker, QnAMakerEndpoint
 from botbuilder.core import TurnContext
 
