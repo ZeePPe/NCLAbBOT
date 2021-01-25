@@ -35,7 +35,6 @@ ADAPTER = BotFrameworkAdapter(SETTINGS)
 #per gestire lo stato bisogna definire uno gestiore
 CONMEMORY = ConversationState(MemoryStorage())
 
-
 # Catch-all for errors.
 async def on_error(context: TurnContext, error: Exception):
     # This check writes out errors to console log .vs. app insights.
