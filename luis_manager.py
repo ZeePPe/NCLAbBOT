@@ -1,7 +1,7 @@
 from botbuilder.core import TurnContext
 from botbuilder.ai.luis import LuisApplication, LuisPredictionOptions, LuisRecognizer
 import json
-from NCLabBot1.config import DefaultConfig
+from config import DefaultConfig
 
 
 class LUISServiceHandler:
