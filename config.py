@@ -8,11 +8,9 @@ class DefaultConfig:
     """ Bot Configuration """
 
     PORT = 3978
-    #APP_ID = os.environ.get("MicrosoftAppId", "")
-    #APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
-    APP_ID = "1d88a938-5d23-4b1d-be78-3de6c2b4b552"
-    APP_PASSWORD = "958651a8-e241-4694-bd2b-f313daaeed1c"
-
+    APP_ID = os.environ.get("MicrosoftAppId", "")
+    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
+    
     # Qna Service
     qna_kb_id = "d7455fd5-8cee-4347-9776-1052088341df"
     qna_endpoint_key = "e432e21e-9d8a-433c-8bcd-909a0280db8f"
