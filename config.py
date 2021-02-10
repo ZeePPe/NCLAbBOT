@@ -28,5 +28,5 @@ class DefaultConfig:
     SQL_DATABASE_NAME = 'nclab_db'
     SQL_SERVER = '{server_name}.database.windows.net,1433'.format(server_name=SQL_SERVER_NAME)
     SQL_USERNAME = "zeeppe"
-    SQL_PASSWORD = "DeviAnceRuleZf79"
+    SQL_PASSWORD = "-----"
 
