@@ -12,13 +12,13 @@ class DefaultConfig:
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
     
     # Qna Service
-    qna_kb_id = "d7455fd5-8cee-4347-9776-1052088341df"
-    qna_endpoint_key = "e432e21e-9d8a-433c-8bcd-909a0280db8f"
+    qna_kb_id = "-----"
+    qna_endpoint_key = "-----"
     qna_host = "https://qnaservice2-asd.azurewebsites.net/qnamaker"
 
     # LUIS
-    LUIS_APPID = "63fda683-a5f5-4ada-8847-acebd51de00b"
-    LUIS_PRIMARYKEY = "08a8181a2006451e80a6d52c6f75f4b7"
+    LUIS_APPID = "-----"
+    LUIS_PRIMARYKEY = "-----"
     LUIS_ENDPOINTURL = "https://westeurope.api.cognitive.microsoft.com/"
     LUIS_MIN_SCORE = 0.90
 
